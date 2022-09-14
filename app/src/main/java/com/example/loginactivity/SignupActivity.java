@@ -9,7 +9,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
-import com.example.loginactivity.utils.HandlePassword;
 import com.google.android.material.button.MaterialButton;
 
 public class SignupActivity extends AppCompatActivity {
