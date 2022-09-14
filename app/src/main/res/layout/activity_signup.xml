@@ -67,18 +67,19 @@
         android:layout_width="match_parent"
         android:layout_height="90dp"
         android:layout_below="@id/linearLayout"
-        android:ems="10"
-        android:inputType="textPostalAddress"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
         android:background="#35ffffff"
+        android:drawableLeft="@drawable/ic_baseline_local_post_office_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
         android:hint="Address"
         android:textColorHint="@color/white"
-        android:drawablePadding="10dp"
-        android:drawableLeft="@drawable/ic_baseline_local_post_office_24"
-        android:padding="10dp"/>
+        android:inputType="textPostalAddress"
+        android:padding="10dp"
+        android:textColor="@color/white" />
 
     <EditText
         android:id="@+id/userName"
@@ -101,18 +102,22 @@
         android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/white"
         android:layout_below="@id/userName"
-        android:layout_margin="20dp"
-        android:textColorHint="@color/white"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
         android:background="#35ffffff"
         android:drawableLeft="@drawable/ic_baseline_remove_red_eye_24"
         android:drawablePadding="10dp"
         android:hint="password"
-        android:padding="10dp"/>
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/login"
+        android:id="@+id/signup"
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:layout_below="@id/password"
